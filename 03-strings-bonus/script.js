@@ -29,3 +29,17 @@ console.log(cityNameConcat); // Output: "New York City"
 // Trasforma tutto in maiscuolo la stringa della variabile hello
 const upperCaseHello = hello.toUpperCase();
 console.log(upperCaseHello); // Output: "HELLO"
+
+// 6. Shopping List
+// Verificare se un articolo è nella lista della spesa
+let searchItem = "mele";
+let itemListed = shoppingList.indexOf(searchItem);
+let itemPresent;
+
+if (itemListed >= 0) {
+  itemPresent = `${searchItem} è presente nella lista della spesa.`;
+} else {
+  itemPresent = `${searchItem} non è presente nella lista della spesa.`;
+}
+
+console.log(itemPresent);
